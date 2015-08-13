@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpsympa\n"
+"POT-Creation-Date: 2015-08-13 09:46-0400\n"
+"PO-Revision-Date: 2015-08-13 09:46-0400\n"
+"Last-Translator: Florian Martin-Bariteau <f.martin-bariteau@umontreal.ca>\n"
+"Language-Team: FMB <info@ilix.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-sympa.php:27 ../wp-sympa.php:29
+msgid "Erreur de configuration"
+msgstr "Configuration error"
+
+#: ../wp-sympa.php:27
+msgid "Aucune intermédiaire Sympa précisé."
+msgstr "No Sympa system given."
+
+#: ../wp-sympa.php:29
+msgid "Aucune liste précisée."
+msgstr "No Sympa list given."
+
+#: ../wp-sympa.php:36
+msgid "Prénom"
+msgstr "Firstname"
+
+#: ../wp-sympa.php:39
+msgid "Nom"
+msgstr "Lastname"
+
+#: ../wp-sympa.php:42
+msgid "Courriel"
+msgstr "E-mail"
+
+#: ../wp-sympa.php:42
+msgid "obligatoire"
+msgstr "mandatory"
+
+#: ../wp-sympa.php:45
+msgid "S'inscrire à la liste de diffusion"
+msgstr "Subscribe to the list"
+
+#: ../wp-sympa.php:46
+msgid "Se désinscrire de la liste de diffusion"
+msgstr "Unsubscribe from the list"
+
+#: ../wp-sympa.php:48
+msgid "Continuer"
+msgstr "Continue"
+
+#: ../wp-sympa.php:66 ../wp-sympa.php:95
+msgid "Une erreur est apparue."
+msgstr "An error has occurred."
+
+#: ../wp-sympa.php:69
+msgid "Vous devez renseigner une adresse courriel !"
+msgstr "You should"
+
+#: ../wp-sympa.php:91
+#, php-format
+msgid ""
+"%1$s, votre demande a été communiquée au serveur de liste avec succès. Vous "
+"devriez recevoir un courriel de confirmation à %2$s sous peu (vérifiez vos "
+"pourriels)."
+msgstr ""
+"%1$s, your request has been successfully sent to the list server. You should "
+"soon receive an email confirmation at %2$s (check your spam box)."
+
+#: ../wp-sympa.php:95
+msgid ""
+"Le système semble incapable de communiquer avec le serveur de liste. Vous "
+"pouvez procéder manuellement, en cliquant sur le lien suivant et en envoyant "
+"le message tel quel depuis votre adresse de messagerie :"
+msgstr ""
+"The system seems unable to send command to the list server. You can do it "
+"manually by clicking on the following link and send the generated message as "
+"it:"
+
+#: ../wp-sympa.php:106
+msgid ""
+"Ajouter un formulaire d'inscription/désinscription à vos listes gérées par "
+"un serveur Sympa avec un simple [wpsympa s=sympa@serveur.xyz l=nomdelaliste]."
+msgstr ""
+"Add a form to subscribe/unsubscribe to your Sympa-managed lists with a "
+"simple shortcode :  [wpsympa s=sympa@server.xyz l=nameoflist]."
+
+#~ msgid ""
+#~ "Le système semble incapable de communiquer avec le serveur de liste. Vous "
+#~ "pouvez procéder manuellement, en cliquant sur le lien suivant et en "
+#~ "envoyant le message tel quel depuis votre adresse de messagerie."
+#~ msgstr ""
+#~ "The system seems unable to send command to the list server. You can do it "
+#~ "manually by clicking on the following link."
