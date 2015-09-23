@@ -3,7 +3,7 @@ WP Sympa
 
 WP Sympa is an easy-to-use Wordpress plugin to display a subscription/unsubcription form for Sympa-managed lists.
 
-**Current version:** 0.1.6 (2015-08-13)
+**Current version:** 0.1.7 (2015-08-17)
 
 ###### LICENSE
 
