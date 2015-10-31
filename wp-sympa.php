@@ -1,17 +1,17 @@
 <?php
 /* 
  * Plugin Name:	WP Sympa
- * Version:     0.1.7
+ * Version:     0.1.8
  * Description:	Ajouter un formulaire d'inscription/désinscription à vos listes gérées par un serveur Sympa avec un simple [wpsympa s=sympa@serveur.xyz l=nomdelaliste].
- * Author: 		Florian Martin-Bariteau
+ * Author: 	Florian Martin-Bariteau
  * Licence: 	GNU GPL v2
  * Text Domain:	wpsympa
  * Domain Path:	/languages/
  *
- * @package		WP Sympa
- * @since		0.1.1
- * @version		0.1.7, 2015-08-17
- * @author		Florian Martin-Bariteau 
+ * @package	WP Sympa
+ * @since	0.1.1
+ * @version	0.1.8
+ * @author	Florian Martin-Bariteau
  */
 
 /*
@@ -29,7 +29,7 @@ function wpsympa_form__callback( $params ){
 
 	if(empty($params['r'])) $params['r'] = 'subscribe';
 	if(empty($params['u'])) $params['u'] = 'unsubscribe';
-
+	
 	$tpl_css = '<style>
 .wpsympa-form input[type=text], .wpsympa-form input[type=email] {
 background-color:#ffffff;
@@ -49,6 +49,13 @@ border-color:#000000;
 .wpsympa-form input[type=radio] {
 font-size: 20px;
 margin-right: 10px;
+visibility: visible !important;
+position: relative !important;
+left: 0px !important; 
+}
+.wpsympa-form label {
+	font-size: inherit;
+	color: inherit;
 }
 .wpsympa-form input[type=submit]{
 background-color:#ffffff;
@@ -165,5 +172,4 @@ function wpsympa_i18n() {
 }
 
 $wpsympadescriptionfori18n = __('Ajouter un formulaire d\'inscription/désinscription à vos listes gérées par un serveur Sympa avec un simple [wpsympa s=sympa@serveur.xyz l=nomdelaliste].', 'wpsympa');
-
 ?>
